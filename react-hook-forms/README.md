@@ -216,7 +216,7 @@ export default CustomForm
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](./../LICENSE) para más detalles.
 
 ## 🔗 Recursos Adicionales
 
