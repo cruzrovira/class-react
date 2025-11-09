@@ -77,16 +77,14 @@ const CustomForm = () => {
       <div className="mt-4 flex gap-4">
         <button
           type="submit"
-          className="w-full rounded  outline p-2
-              bg-sky-800 text-white hover:outline-sky-800 hover:outline-2"
+          className="w-full rounded bg-sky-800 p-2 text-white outline hover:outline-2 hover:outline-sky-800"
         >
           Enviar
         </button>
         <button
           type="reset"
           onClick={onReset}
-          className="w-full rounded  outline p-2
-              bg-sky-800 text-white hover:outline-sky-800 hover:outline-2"
+          className="w-full rounded bg-sky-800 p-2 text-white outline hover:outline-2 hover:outline-sky-800"
         >
           Cancelar
         </button>

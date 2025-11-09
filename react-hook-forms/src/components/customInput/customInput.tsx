@@ -23,9 +23,9 @@ const CustomInput = ({
         id={name}
         type={type}
         {...register(name)}
-        className="w-full rounded  outline p-2 hover:outline-sky-800 hover:outline-2"
+        className="w-full rounded p-2 outline hover:outline-2 hover:outline-sky-800"
       />
-      <p className="text-red-400 min-h-6">{error?.message}</p>
+      <p className="min-h-6 text-red-400">{error?.message}</p>
     </div>
   )
 }
